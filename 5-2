@@ -1,0 +1,30 @@
+Console.WriteLine("Welcome to Contact Management application");
+
+public class contact
+
+{
+    static void Main()
+
+    {
+
+        //create and initialize the contact info
+        Queue<string> contact = new Queue<string>();
+        tasks.Enqueue("add");
+        tasks.Enqueue("remove");
+        tasks.Enqueue("Display");
+
+        //the add
+        Console.WriteLine("Next task:" + TaskScheduler.Peek());//output: contact info
+
+        //remove
+
+        Console.WriteLine("Dequeue task" + TaskScheduler.Peek());//output: contact
+        //iterate over queue
+        foreach (string = number)
+        { 
+            Console.WriteLine(contact);
+        }
+
+
+    }
+}
